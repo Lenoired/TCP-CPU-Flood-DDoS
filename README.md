@@ -12,6 +12,12 @@ git clone https://github.com/Lenoired/TCP-CPU-Flood-DDoS.git flood-tcp-cpu && cd
 
 ```
 
+## Usage
+
+```bash
+python3 flood.py <IP> <port> <threads> <duration, in seconds> <optional: max packets per second, default: 1000>
+```
+
 ## Examples
 
 - _Flood port 80 with target IP 1.1.1.1 with 2 threads for 30 seconds_
