@@ -15,7 +15,7 @@ git clone https://github.com/Lenoired/TCP-CPU-Flood-DDoS.git flood-tcp-cpu && cd
 ## Usage
 
 ```bash
-python3 flood.py <IP> <port> <threads> <duration, in seconds> <optional: max packets per second, default: 1000>
+python3 flood.py <IP> <port> <threads> <duration, in seconds>
 ```
 
 ## Examples
